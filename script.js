@@ -46,3 +46,9 @@ let grades = [85, 92, 78, 90];
 let [grade1, grade2] = grades;
 console.log(grade1)
 console.log(grade2)
+
+
+//PART FOUR: SPREAD OPERATOR
+//I like this one!
+
+studentClone = {...student};
