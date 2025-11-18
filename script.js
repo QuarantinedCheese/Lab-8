@@ -10,26 +10,34 @@ let student = {
                  Student age: ${this.age}
             Student enrolled: ${this.enrolled}
              Student courses: ${this.courses}
-            `)
+            `);
     }
-}
+};
 
-console.log(student.name)
-console.log(student.age)
-student.display()
+console.log(student.name);
+console.log(student.age);
+student.display();
 
 
 // PART TWO: WORKING WITH JSON
 
 // convert to json:
-let studentJSON = JSON.stringify(student)
-console.log(studentJSON)
+let studentJSON = JSON.stringify(student);
+console.log(studentJSON);
 
 // convert back
 
-let studentobj = JSON.parse(studentJSON)
-console.log(studentobj)
+let studentobj = JSON.parse(studentJSON);
+console.log(studentobj);
 //og
-console.log(student)
+console.log(student);
 
 //studentobj is missing the display function.
+
+
+//PART THREE: DESTRUCTURING
+//I spelled that first try! (real)
+
+let {name, courses} = student;
+console.log(name)
+console.log(courses)
