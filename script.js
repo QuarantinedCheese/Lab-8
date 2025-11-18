@@ -75,5 +75,8 @@ let student = {
             Student enrolled: ${this.enrolled}
              Student courses: ${this.courses}
             `);
-    }
+    },
+    addCourse: function(course) {
+        this.courses.push(course);
+    },
 };
