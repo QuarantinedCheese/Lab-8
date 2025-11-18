@@ -51,4 +51,5 @@ console.log(grade2)
 //PART FOUR: SPREAD OPERATOR
 //I like this one!
 
-studentClone = {...student};
+studentClone = {...student, gradYear: 3093};
+console.log(studentClone.gradYear)
