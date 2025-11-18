@@ -79,4 +79,7 @@ let student = {
     addCourse: function(course) {
         this.courses.push(course);
     },
+    courseAmt: function() {
+        return this.courses.length()
+    }
 };
