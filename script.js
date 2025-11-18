@@ -64,7 +64,7 @@ console.log(student.courses);
 //I broke my naming convention! I'm evil.
 
 //Student object copied from above...
-let student = {
+let student2 = {
     name: "John Student",
     age: 34,
     enrolled: true,
@@ -80,6 +80,6 @@ let student = {
         this.courses.push(course);
     },
     courseAmt: function() {
-        return this.courses.length()
+        return this.courses.length();
     }
 };
