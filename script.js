@@ -18,3 +18,10 @@ let student = {
 console.log(student.name)
 console.log(student.age)
 student.display()
+
+
+// PART TWO: WORKING WITH JSON
+
+// convert to json:
+let studentJSON = JSON.stringify(student)
+console.log(studentJSON)
