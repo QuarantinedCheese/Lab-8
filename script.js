@@ -39,5 +39,10 @@ console.log(student);
 //I spelled that first try! (real)
 
 let {name, courses} = student;
-console.log(name)
-console.log(courses)
+console.log(name);
+console.log(courses);
+
+let grades = [85, 92, 78, 90];
+let [grade1, grade2] = grades;
+console.log(grade1)
+console.log(grade2)
