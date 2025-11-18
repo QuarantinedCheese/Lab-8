@@ -44,12 +44,17 @@ console.log(courses);
 
 let grades = [85, 92, 78, 90];
 let [grade1, grade2] = grades;
-console.log(grade1)
-console.log(grade2)
+console.log(grade1);
+console.log(grade2);
 
 
 //PART FOUR: SPREAD OPERATOR
 //I like this one!
 
-studentClone = {...student, gradYear: 3093};
-console.log(studentClone.gradYear)
+let studentClone = {...student, gradYear: 3093};
+console.log(studentClone.gradYear);
+
+const newCourses = ["WRIT-120", "WRIT-220"];
+
+student.courses = [...student.courses, ...newCourses];
+console.log(student.courses);
